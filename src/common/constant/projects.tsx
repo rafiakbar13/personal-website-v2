@@ -149,4 +149,30 @@ export const projectsData: Project[] = [
       </div>
     ),
   },
+  {
+    id: 6,
+    name: "Fitness App",
+    description: "Fitness App is a platform for book a trainer",
+    tools: [
+      "NextJS",
+      "TailwindCSS",
+      "Framer Motion",
+      "TypeScript",
+      "React Query",
+    ],
+    role: "Full Stack Developer",
+    code: "https://github.com/rafiakbar13/trainers-booking",
+    demo: "https://trainers-booking.vercel.app/",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src="https://res.cloudinary.com/druic0cle/image/upload/v1712840981/yfcxbkeaqlbsneunbc5a.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-contain"
+          alt="linear board demo"
+        />
+      </div>
+    ),
+  },
 ];
